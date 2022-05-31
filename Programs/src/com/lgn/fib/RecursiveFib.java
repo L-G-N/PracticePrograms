@@ -9,7 +9,7 @@ public class RecursiveFib
 	public static void main(String[] args)
 	{
 		Instant start = Instant.now();
-		System.out.println(fib(50));
+		System.out.println(fib(30));
 		Instant end = Instant.now();
 		System.out.println("Time taken to find the FIB :: "+Duration.between(start, end).toMillis());
 	}
